@@ -1,0 +1,71 @@
+	
+<html> 
+<<<<<<< HEAD
+	<title> Welcome to Ronzilla! Where the Alligators are in full control of the boat! </title>
+=======
+<title> Welcome to Ronzilla! Where the Alligators are in full control of the boat!! </title>
+>>>>>>> a476f240a7c21daf31e0d8ee51e9ff7f0a6b2fe5
+<head> 
+
+<link rel="stylesheet" type="text/css" href="zilla.css"/>
+<SCRIPT type="text/javascript" SRC="quotes.js"> </SCRIPT>
+
+</head>
+
+
+<div id="zillawrap">
+
+<img src="images/zilla4.png"  align="center" border="none" />
+
+
+<div id="zillamenu"> 
+<<<<<<< HEAD
+<ul>
+   
+ <li><a href="index.html" onMouseOver="index.src='images/buttons/home.png'" onMouseOut="index.src='images/buttons/home2.png'"><img src="images/buttons/home2.png" name="index" border="none"/></a></li><li><a href="about.html" onMouseOver="about.src='images/buttons/who.png'" onMouseOut="about.src='images/buttons/who2.png'"><img src="images/buttons/who2.png" width="200px" name="about" border="none"/></a></li><li><a href="disclaimer.html" onMouseOver="disclaimer.src='images/buttons/disclaimer.png'" onMouseOut="disclaimer.src='images/buttons/disclaimer2.png'"><img src="images/buttons/disclaimer2.png" name="disclaimer" width="201"/></a></li><li><a href="contact.html" onMouseOver="contact.src='images/buttons/contact.png'"onmouseout="contact.src='images/buttons/contact2.png'"><img src="images/buttons/contact2.png" name="contact" border="0"/> </a>	</li> 
+ </ul>
+=======
+<ul>   
+        <li><a href="index.html" onMouseOver="index.src='images/buttons/home.png'" onMouseOut="index.src='images/buttons/home2.png'"><img src="images/buttons/home2.png" name="index" border="none"/></a></li>
+	<li><a href="about.html" onMouseOver="about.src='images/buttons/who.png'" onMouseOut="about.src='images/buttons/who2.png'"><img src="images/buttons/who2.png" width="200px" name="about" border="none"/></a></li>
+	<li><a href="disclaimer.html" onMouseOver="disclaimer.src='images/buttons/disclaimer.png'" onMouseOut="disclaimer.src='images/buttons/disclaimer2.png'"><img src="images/buttons/disclaimer2.png" name="disclaimer" width="201"/></a></li>
+	<li><a href="contact.html" onMouseOver="contact.src='images/buttons/contact.png'"onmouseout="contact.src='images/buttons/contact2.png'"><img src="images/buttons/contact2.png" name="contact" border="0"/> </a>	</li> 
+</ul>
+>>>>>>> a476f240a7c21daf31e0d8ee51e9ff7f0a6b2fe5
+ 		
+</div>           
+            
+	
+
+<div id="zillaquote">
+
+  <div id="corner1" class="box"> <img src="images/leftscales2.png" > </div>
+  <div id="corner2" class="box"> <img src="images/rightscales.png"> </div>
+  
+   <img src="images/shinyzilla5.png" alt="Zilla" height="700" usemap="#zillamap" border="none" align="middle" ismap="ismap">
+   <map name="zillamap">
+    
+    <area shape ="rect" coords="165,97,310,264" onClick="writeQuote()"  target="_blank" alt="Zilla's Head" />
+    <area shape ="rect" coords="133,327,252,439" onClick="lastQuote()"   target="_blank" alt="Favre's Head" />
+ 
+ </map>
+
+<p id="num" > </p>
+
+<p id="quote"> Click on Zilla's head to generate a quote. Click on Favre's head to see past quotes. </p>
+
+ <div id="enter">
+ <FORM NAME="myform" ACTION="" METHOD="GET">Enter a quote number:  <BR>
+<INPUT TYPE="text" NAME="inputbox" VALUE=""> <P>
+<INPUT TYPE="button" NAME="button" Value="Show Me!" onClick="seeQuote(this.form); inputbox.value=''">
+</FORM></div>
+
+</div>  <!-- close zillaquote -->
+
+
+</div> <!-- close zilla wrap -->
+
+</html>
+
+
+
