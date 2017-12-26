@@ -1,0 +1,76 @@
+/* CSS Document */
+
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-left:  0px;
+	font-size: 100%;
+	font-weight: bold;
+	background: #FFF;
+	background-color: #FFF380;
+	}
+
+h2 {
+	font: bold 18px Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	margin: 0px;
+	padding: 0px 0px 0px 15px;
+}
+	
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+
+img {
+    border: none;
+}
+  
+
+  
+  .container
+{
+text-align:center;
+}
+.center_div
+{
+
+margin-left:auto;
+margin-right:auto;
+width:65%;
+height:340px;
+
+
+text-align:left;
+padding:8px;
+}
+  
+ #menu7 {
+	width: 200px;
+	margin: 10px;
+	}
+	
+#menu7 li a {
+	height: 62px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 54px;
+  	font-size: 130%;
+	text-decoration: none;
+	}	
+	
+#menu7 li a:link, #menu7 li a:visited {
+	color: #FFF;
+	display: block;
+	background-color: #660055;
+	padding: 8px 0 0 30px;
+	}
+	
+#menu7 li a:hover {
+	color: #FFF;
+	background-color: #A9A;
+	padding: 8px 0 0 30px;
+	}
+	
+	

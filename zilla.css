@@ -1,0 +1,154 @@
+#zillawrap{
+	background-image:url(images/scales2.jpg); 
+	background-repeat: repeat;
+	text-align: center;
+	align: center;
+	padding: 20 20 20 20;
+    margin: auto;
+}
+
+
+#zillaquote{
+ text-align: center;
+color: black;
+position: relative; 
+background-color: #FFF;
+align: center;
+margin: auto;
+width: 925px;
+height: 698;
+
+}
+
+
+.box {
+	width: 100px;
+	height: 6900px;
+}
+
+#corner1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#corner2{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+
+
+ #zillamenu {
+	height: 50px;
+	text-align: center;
+    position: relative; right: 20px;
+	border: none;
+	margin: 0 0 0 0 ;
+}
+	
+#zillamenu li img {
+	voice-family: inherit;
+  	height: 50px;
+    text-decoration: none;
+	border: 0;
+	padding: 0 0 0 0;
+	text-align: center;
+	background-color: #000;
+	margin: 0 0 0 0 ;
+	
+	}	
+	
+	
+#zillamenuf li a:hover {
+	
+	background-color: #AAA; 
+	
+	}
+	
+ #zillamenu li {
+ 	display:inline; 
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	margin-left: 0px;
+	margin-right: 0px;
+}	
+	
+		
+	
+	
+
+
+#zillabody{
+	background-color: #DDD;
+	color: #2a3324;
+	height: 650px;
+	position: relative;
+	padding: 20px 20px 20px 20px; 
+	text-align: left;
+	font-size: 20;
+	line-height: 150%;
+	font: "Times New Roman", Times, serif;
+	margin: 20px, 50px, 20px, 50px;
+}
+
+#lizard
+{ 
+ margin-right: 10px;
+ position: absolute; 
+ bottom: 140px;
+ right: 0px;
+ background-color: transparent;
+}
+	
+#zillabody p {
+margin: 20px, 50px, 20px, 50px;
+padding: 20px, 50px, 20px, 50px;
+
+}
+	
+	
+	
+.around {
+	position: absolute;
+	top: 325px;
+	left: 21px;
+	width: 430px;
+	
+}
+
+
+
+#num{
+	position:absolute;
+	left:506px;
+	top:13px;
+	font:bold;
+	color:#000;
+	width: 257px;
+	height: 37px;
+	font: bold;
+	font-size: 16;
+}
+
+
+#quote{
+	position:absolute;
+	top:50px;
+	left:480px;
+	width:330px;
+	height:133px;
+	color:black;
+	text-align:left;
+	overflow:auto;
+	font:bold;
+	line-height: 1.5;
+	font-size: 18;
+}
+
+#enter{
+	position: absolute;
+	top: 600px;
+	left: 600px;
+}
